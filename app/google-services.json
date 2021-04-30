@@ -1,0 +1,47 @@
+{
+  "project_info": {
+    "project_number": "993727968507",
+    "project_id": "grandapp-definitivo",
+    "storage_bucket": "grandapp-definitivo.appspot.com"
+  },
+  "client": [
+    {
+      "client_info": {
+        "mobilesdk_app_id": "1:993727968507:android:adaf8fa3c8aa4da2526c5e",
+        "android_client_info": {
+          "package_name": "com.example.grandapp"
+        }
+      },
+      "oauth_client": [
+        {
+          "client_id": "993727968507-c0dnvbieo6phlerq93si57rsvrg8nemp.apps.googleusercontent.com",
+          "client_type": 1,
+          "android_info": {
+            "package_name": "com.example.grandapp",
+            "certificate_hash": "dae1725295e8739c94298dbedc9713fa13d24a47"
+          }
+        },
+        {
+          "client_id": "993727968507-pg7cn71f86al405la2ka3qvp1dm1tjom.apps.googleusercontent.com",
+          "client_type": 3
+        }
+      ],
+      "api_key": [
+        {
+          "current_key": "AIzaSyBtt68GzHnEq3bsCaW-NPk242IK888Jg5Y"
+        }
+      ],
+      "services": {
+        "appinvite_service": {
+          "other_platform_oauth_client": [
+            {
+              "client_id": "993727968507-pg7cn71f86al405la2ka3qvp1dm1tjom.apps.googleusercontent.com",
+              "client_type": 3
+            }
+          ]
+        }
+      }
+    }
+  ],
+  "configuration_version": "1"
+}
