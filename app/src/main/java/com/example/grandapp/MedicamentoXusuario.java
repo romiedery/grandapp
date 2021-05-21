@@ -1,24 +1,26 @@
 package com.example.grandapp;
 
-public class medicamentoXusuarios {
+import java.util.ArrayList;
+
+public class MedicamentoXusuario {
         private int IdUsuario;
     private int IdMeds;
         private String fechaInicio;
     private String horaInicio;
     private int repeticion;
     private  int repeticionAlerta;
-    public int getId() {
+    public int getIdUsuario() {
             return IdUsuario;
         }
 
-        public void setId(int idUsuario) {
+        public void setIdUsuario(int idUsuario) {
             IdUsuario = idUsuario;
         }
-    public int getId() {
+    public int getIdMeds() {
         return IdMeds;
     }
 
-    public void setId(int idMeds) {
+    public void setIdMeds(int idMeds) {
         IdMeds = idMeds;
     }
 
@@ -52,5 +54,21 @@ public class medicamentoXusuarios {
     public void setRepeticionAlerta(int RepeticionAl) {
         repeticionAlerta = RepeticionAl;
     }
+    static ArrayList<MedicamentoXusuario> ListaMedicamentosXUsuario = new ArrayList();
+
+    public ArrayList ListarMedsXUsuario() {
+        MedicamentoXusuario aux = new MedicamentoXusuario(); //Se crea un objeto Coche y se asigna su referencia a aux
+
+        //se asignan valores a los atributos del nuevo objeto
+        aux.setIdUsuario(IdUsuario);
+        aux.setIdMeds(IdMeds);
+        aux.setHoraInicio(horaInicio);
+        aux.setFechaInicio(fechaInicio);
+        aux.setRepeticion(repeticion);
+        aux.setRepeticionAlerta(repeticionAlerta);
+        //se añade el objeto al final del array
+        ListaMedicamentosXUsuario.add(aux);
+        return ListaMedicamentosXUsuario;
     }
-}
+    }
+
