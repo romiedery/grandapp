@@ -13,7 +13,8 @@ import java.net.HttpURLConnection;
 import java.net.URL;
 
 public class UsuariosController {
-    private class TareaAsincronicaUsuarios extends AsyncTask<Void, Void, Void> {
+    private class TareaAsincronicaUsuarios extends Usuarios <Void, Void, String> {
+
         @Override
         protected Void doInBackground(Void... voids) {
             try {
